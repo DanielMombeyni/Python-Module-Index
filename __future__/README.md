@@ -24,9 +24,9 @@ Features                 | Optional in | Mandatory in
 
 There are seven features in Python future module.
 
-### [All future names](./Examples/1_example.py)
+### [All future names](./Examples/example_1.py)
 
-[![all_feature_name](../asset/1.png)](./Examples/1_example.py)
+[![all_feature_name](../asset/__future__/Code/1.png)](./Examples/example_1.py)
 
 ***Output***
 
@@ -40,7 +40,7 @@ There are seven features in Python future module.
 
 ## `__future__` module with print_function
 
-***[Example 1:](./Examples/2_example.py)***
+***[Example 1:](./Examples/example_2.py)***
 
 The Python2 print statement is different from Python3 print function. We use the Python print statement in Python2 as:
 
@@ -48,41 +48,41 @@ The Python2 print statement is different from Python3 print function. We use the
 
 But we can use the Python3 print function in the Python2 function using the future modules.
 
-[![print_function](../asset/2.png)](./Examples/2_example.py)
+[![print_function](../asset/__future__/Code/2.png)](./Examples/example_2.py)
 
 ***Output***
 
 > Hello world
 
-***[Example 2:](./Examples/3_example.py)***
+***[Example 2:](./Examples/example_3.py)***
 
 Here we are going to print the message in Python 2.X with end attributes that come in Python 3 and “end” appends string in a newline. And it will raise an error because the function is not compatible with 2.x.
 
-[![Result](../asset/3.png)](./Examples/3_example.py)
+[![Result](../asset/__future__/Code/3.png)](./Examples/example_3.py)
 
 ***Output***
 
-[![Error](../asset/1-error.png)](./Examples/3_example.py)
+[![Error](../asset/__future__/Error/1-error.png)](./Examples/example_3.py)
 
 So with `__future__` print function we can import these features in our code to use the latest print function.
 
-[![with future](../asset/4.png)](./Examples/4_example.py)
+[![with future](../asset/__future__/Code/4.png)](./Examples/example_4.py)
 
 ***Output***
 > Hello world;
 
-***[Example 3:](./Examples/5_example.py)***
+***[Example 3:](./Examples/example_5.py)***
 
 sep also belongs to Python 3.x but here we will use these attributes by using this module. Let’s check these attributes without using the future modules.
 
-[![sep](../asset/5.png)](./Examples/5_example.py)
+[![sep](../asset/__future__/Code/5.png)](./Examples/example_5.py)
 
 ***Output***
-[![Error](../asset/2-error.png)](./Examples/5_example.py)
+[![Error](../asset/__future__/Error/2-error.png)](./Examples/example_5.py)
 
 Then let’s use the `__future__` print function to use the sep attributes.
 
-[![sep](../asset/6.png)](./Examples/6_example.py)
+[![sep](../asset/__future__/Code/6.png)](./Examples/example_6.py)
 
 ***Output***
 > Welcome To Geeksforgeeks
@@ -93,7 +93,7 @@ Here we are going to use the division function in Python2.x and Python3.x.
 
 Let’s see the example in Python2.x.
 
-[![division](./../asset/7.png)](./Examples/7_example.py)
+[![division](../asset/__future__/Code/7.png)](./Examples/example_7.py)
 
 ***Output***
 > 1.4
@@ -101,7 +101,7 @@ Let’s see the example in Python2.x.
 
 And let see this with the future module, it will give you the accurate result.
 
-[![division](./../asset/8.png)](./Examples/9_example.py)
+[![division](../asset/__future__/Code/8.png)](./Examples/example_9.py)
 
 ### `__future__`  module with [unicode_literals](https://www.geeksforgeeks.org/unicode_literals-in-python/) function
 
@@ -111,7 +111,7 @@ In Python2.x we can not use Unicode but future modules allow us to use Unicode.
 
 In Python2 strings are considered bytes strings but in later versions, all strings are considered as a Unicode string.
 
-[![Unicode](./../asset/10.png)](./Examples/10_example.py)
+[![Unicode](../asset/__future__/Code/10.png)](./Examples/example_10.py)
 
 ***Output***
 
@@ -119,7 +119,7 @@ In Python2 strings are considered bytes strings but in later versions, all strin
 
 Let use the future module in Python2.
 
-[![unicode_literals](../asset/11.png)](./Examples/11_example.py)
+[![unicode_literals](../asset/__future__/Code/11.png)](./Examples/example_11.py)
 
 ***Output***
 
@@ -129,15 +129,15 @@ Let use the future module in Python2.
 
 let’s see the example without future module, it will raise an error because we are building a byte string that holds UTF-8 encoded bytes
 
-[![encoded](../asset/12.png)](./Examples/12_example.py)
+[![encoded](../asset/__future__/Code/12.png)](./Examples/example_12.py)
 
 ***Output***
 
-[![Error](../asset/13.png)](./Examples/12_example.py)
+[![Error](../asset/__future__/Code/13.png)](./Examples/example_12.py)
 
 And it can be done in Python2X with future modules.
 
-[![encoded](../asset/14.png)](./Examples/13_example.py)
+[![encoded](../asset/__future__/Code/14.png)](./Examples/example_13.py)
 
 >***Reference***
 >[geeksforgeeks](https://www.geeksforgeeks.org/__future__-module-in-python/)
