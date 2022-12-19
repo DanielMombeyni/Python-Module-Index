@@ -119,5 +119,5 @@ In addition to these methods, lock objects can also be used via the [with](https
 - [ref](https://mpython.readthedocs.io/en/master/library/micropython/_thread.html)
 
 [![example3](./../asset/_thread/Code/3.png)](./Examples/example_3.py)
-<!-- - [ref]() -->
-<!-- TODO add ref website -->
+
+[Read more ...](AboutThread/README.md)
